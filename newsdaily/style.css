@@ -2,7 +2,7 @@
 Theme Name: 	   NewsDaily
 Text Domain: 	   newsdaily
 Template: 			newsmash
-Version:            1.0.52
+Version:            1.0.53
 Tested up to:       6.6
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -308,4 +308,8 @@ table.wc-block-cart-items .wc-block-components-product-price {
 .wc-block-mini-cart__empty-cart-wrapper .wc-block-mini-cart__shopping-button:hover, 
 .wc-block-mini-cart__empty-cart-wrapper .wc-block-mini-cart__shopping-button:focus {
     color: #fff;
+}
+
+.widget.widget_shopping_cart a:before {
+    display:none
 }
