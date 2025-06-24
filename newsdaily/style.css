@@ -2,7 +2,7 @@
 Theme Name: 	   NewsDaily
 Text Domain: 	   newsdaily
 Template: 			newsmash
-Version:            1.0.86
+Version:            1.0.87
 Tested up to:       6.8
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -423,5 +423,9 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantit
 }
 
 .wp-block-details.has-background {
+    padding: 1.25em 2.375em;
+}
+
+.wp-block-verse.has-background {
     padding: 1.25em 2.375em;
 }
