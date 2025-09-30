@@ -2,7 +2,7 @@
 Theme Name: 	   NewsDaily
 Text Domain: 	   newsdaily
 Template: 			newsmash
-Version:            1.1
+Version:            1.1.1
 Tested up to:       6.8
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -469,4 +469,8 @@ a.wp-block-button__link:focus {
 
 .wp-block-latest-comments li a:not(:hover, :focus) {
     color: var(--dt-black-color);
+}
+
+.dt_footer .wp-block-latest-comments li a:not(:hover, :focus) {
+    color: #fff;
 }
